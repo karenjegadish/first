@@ -1,0 +1,149 @@
+.logo{
+	margin: 0 auto;
+	display:block;
+	height: 200px;
+}
+
+h1 {color: #000000;  
+	font-family: 'Sansita Swashed', cursive;
+	text-align: center;
+	font-weight: bold;
+	font-size: 5em;}
+nav{
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	float: center;
+	text-align: center;
+	line-height: 2;
+
+	padding-top: 10px;
+}
+blockquote{
+	border-left: 3px #b3f0ff solid;
+	padding: 10px;
+}
+h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+nav ul{ 
+list-style-type: none; 
+}
+nav a{ 
+text-decoration: none; 
+ padding: 8px 10px; 
+}
+nav li {  
+display: inline; 
+background-color: #9fc0d1ff;
+   padding: 8px 10px;
+   border-radius: 3px;
+}
+nav a:link{
+color:blue;
+}
+nav a:visited {
+color:#000000;
+}
+nav a:hover  {
+color: #999999;
+background-color: #dcf3ffff;
+   padding: 8px 10px;
+   border-radius: 3px;
+}
+nav a:active  {
+color:blue;
+}
+main{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kufam&family=Montserrat:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+p{font-family: 'Open Sans', sans-serif; 
+font-size: 1em;
+text-align: left;}
+.home-hero{
+	background-image: url(images/header.jpg);
+	max-height: 475px;
+	background-size: cover;
+	background-position: center;
+	color: #24478f;
+	padding: 10px 10px 390px 30px;
+ 
+}
+
+#wrapper{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto; }
+.address{
+	float: right;
+}
+hr{
+border-top: 5px double #000000; 
+}
+hr.line{
+	border-top: 2px solid #000000; 
+}
+img{ 
+	display:block;
+	margin:0 auto;
+	height: 600px;
+
+
+}
+
+ 
+footer{
+	text-align: center;
+	color: white;
+	font-size: 1.5em;
+	background-color: #9fc0d1ff;
+	border-spacing: 3px;
+
+}
+i.fa{
+	padding-top: 30px;
+	color: #000000;
+	font-size: 3em;
+}
+
+/* CSS for Tablets*/
+@media only screen and (max-width: 1024px)
+{
+
+	h1{
+		font-size: 2em;
+	}
+}
+
+/* CSS for Smartphones*/
+@media only screen and (max-width: 768px)
+{
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+.mobile{
+	display: none;
+}
+@media only screen and (max-width: 700px)
+{
+	.desktop{
+		display: none;
+	}
+	.mobile{
+		display: block;
+	}
+}
+
+
+
+
